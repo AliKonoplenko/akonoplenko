@@ -27,8 +27,10 @@ console.log(string != num)
 
 
 // create variable with using addition assignment (+=) for two numbers
-let v = 1
-console.log(v += 3)
+let q = 1
+let w = 3
+let e = q += w
+console.log(e)
 
 
 // create variable that should be 'false' with using equality operator 
