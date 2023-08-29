@@ -16,3 +16,4 @@ console.log(typeof{myVariable})
 //чи вірно оголошений код для отримання значення іншої змінної
 let name  = 'Petr'
 console.log(`hello ${name}`)
+
