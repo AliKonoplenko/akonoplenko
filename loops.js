@@ -7,9 +7,18 @@ let num = 10
 
 
 // do while - сначала прогон, потом проверка 
-do {
-    num++
-    console.log(num)
-} while (num <= 7)
+// do {
+//     num++
+//     console.log(num)
+// } while (num <= 7)
+
+let sumOfLoop = 0;
 
 
+for (let i = 0; i < num; i+=2) {
+    console.log(i)
+    if (i == 6) break;
+    sumOfLoop += i
+}
+
+console.log(sumOfLoop)
