@@ -1,14 +1,16 @@
-let jsonObj1 = '{"name": "Alina", "lname": "Konoplenko", "age": 27}'
+const values = require('./values.json')
 
-let obj2 = JSON.parse(jsonObj1)
+// let jsonObj1 = '{"name": "Alina", "lname": "Konoplenko", "age": 27}'
 
-console.log(obj2.name)
+// let obj2 = JSON.parse(jsonObj1)
+
+// console.log(obj2.name)
 
 
-obj2.city = "York"
+// obj2.city = "York"
 
-console.log(obj2)
+// console.log(obj2)
 
-jsonObj1 = JSON.stringify(obj2)
+// jsonObj1 = JSON.stringify(obj2)
 
-console.log(jsonObj1)
+console.log(values)
