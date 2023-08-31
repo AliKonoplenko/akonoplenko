@@ -3,11 +3,11 @@
 //          alert( `number ${i}!` );
 //          }
 
-// let i = 0
-// while (i < 3) {
-//     alert(`number ${i}!`)
-//     i++
-// }
+let i = 0
+while (i < 3) {
+    alert(`number ${i}!`)
+    i++
+}
 
 
 // create a loop from 0 to 10, inside create a variable 'NotDivide', and assign numbers that can't divide 2 and console every time that number. 
