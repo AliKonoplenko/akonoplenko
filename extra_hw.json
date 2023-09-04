@@ -1,1 +1,6 @@
-{"name":"Anna","lname":"Rybka","age":189,"city":"Barcelona"}
+{
+    "name": "Anna",
+    "lname": "Rybka",
+    "age": 18,
+    "city": "Barcelona"
+}
