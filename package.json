@@ -10,6 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^12.17.4",
-    "mocha": "^10.2.0"
-  }
+    "fs-extra": "^11.1.1",
+    "mocha": "^10.2.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "log4js": "^6.9.1"
+  },
+  "type":"module"
 }
+
