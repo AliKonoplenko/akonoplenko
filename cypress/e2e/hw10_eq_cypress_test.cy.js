@@ -23,8 +23,8 @@ context('Testing Cypress website', () => {
 
         cy.get('div.grid.border-t a[href="/customer-stories"]').click()
         cy.get('button.border.border-solid').wait(1500)
-        .click()
-        .should('be.visible')
+            .click()
+            .should('be.visible')
 
         cy.get('input[name="firstname"]').type('Alina')
         cy.get('input[name="lastname"]').type('Test')
