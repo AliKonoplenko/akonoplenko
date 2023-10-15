@@ -1,12 +1,9 @@
-export default class MainPage {
-
+export const mainPage = {
     menu() {
-        return cy.get('header li').eq(2).click()
-    }
-
-
+        cy.get('header li').eq(2).click()
+    },
     title() {
-        return cy.get('div.b-showcase.m-hide a.bi.bi-tools')
+        cy.get('div.b-showcase.m-hide a.bi.bi-tools').click()
     }
 
 }
