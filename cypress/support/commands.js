@@ -44,7 +44,7 @@ Cypress.Commands.add('loginAndSetLocalStorage', () => {
     });
 })
 
-Cypress.Commands.add('createNewCategory', (category) => {
+Cypress.Commands.add('createNewCategory', (category, callback) => {
     const accessToken = window.localStorage.getItem('auth-token')
     cy.request({
         method: 'POST',
@@ -56,17 +56,20 @@ Cypress.Commands.add('createNewCategory', (category) => {
             authorization: `${accessToken}`
         }
     }).then((response) => {
-        return response.body
+            callback(response.body._id)
     })
 })
 
-Cypress.Commands.add('createNewPosition', (position, cost) => {
+
+Cypress.Commands.add('createNewPosition', (position, cost, category) => {
+
     const accessToken = window.localStorage.getItem('auth-token')
+    cy.log(category)
     cy.request({
         method: 'POST',
         url: 'http://5.189.186.217/api/position',
         body: {
-            category: '653fda33146a28199b538d82',
+            category: category,
             cost: cost,
             name: position
         },
