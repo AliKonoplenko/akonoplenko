@@ -2,7 +2,7 @@ let arr1 = ['aaa', 123, 'bbb', 'werq', true, function () { console.log(`Hi from 
 
 arr1[3] = 'new';
 
-async function getOnlyString(baseArr) {
+async function getOnlyStringFromArr(baseArr) {
 
 let result = [];
 resultWithUpperC = [];
@@ -22,6 +22,5 @@ for (let y = 0; y < result.length; y++) {
     }
 console.log(resultWithUpperC)
 }
-getOnlyString(arr1)
-// console.log(resultR)
-// console.log(resultWithUpperC)
+getOnlyStringFromArr(arr1)
+
