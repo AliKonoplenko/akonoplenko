@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@faker-js/faker": "^8.2.0",
     "cypress": "^12.17.4",
     "cypress-mongodb": "^6.2.0",
     "mocha": "^10.2.0",
