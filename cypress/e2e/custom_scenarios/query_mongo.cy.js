@@ -23,7 +23,7 @@ describe('Find data', () => {
                 body: {
                     firstName: 'sss',
                     lastName: 'qqq',
-                    username: 'Mi',
+                    username: 'Si',
                     password: '123qweasd'
                 }
             })
