@@ -9,9 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@faker-js/faker": "^8.2.0",
     "cypress": "^12.17.4",
     "mocha": "^10.2.0",
     "node-fetch": "^3.3.2"
   },
-"type":"module"
+  "type": "module"
 }
