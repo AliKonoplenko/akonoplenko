@@ -3,7 +3,7 @@ import { faker } from '@faker-js/faker';
 
 
 describe('HW_14', () => {
-    
+
     context('Faker_using', () => {
 
         it('create user', () => {
@@ -30,11 +30,9 @@ describe('HW_14', () => {
                 headers: {
                     Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTQ3N2ZhMWVjYjI5ZTBmY2VhYTI5MzciLCJpYXQiOjE2OTkxODYzMTQsImV4cCI6MTY5OTc5MTExNH0.OCNDBy8a7xFXDYWdvMuyq5Pi3ANo-JY8noFBybGRWlo'
                 }
-            }).then(({body}) => {
-                    expect(JSON.stringify(body)).to.include('username')
-                })
-            
-
+            }).then(({ body }) => {
+                expect(JSON.stringify(body)).to.include('username')
+            })
         })
 
     })
